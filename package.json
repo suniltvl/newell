@@ -2,7 +2,8 @@
   "name": "node-starter",
   "version": "0.0.0",
   "scripts": {
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "build": "webpack -w"
   },
   "dependencies": {
     "bootstrap": "^5.0.2",
@@ -12,6 +13,7 @@
   },
   "devDependencies": {
     "css-loader": "^5.2.6",
+    "mini-css-extract-plugin": "^2.7.2",
     "sass-loader": "^12.1.0",
     "style-loader": "^3.0.0",
     "webpack": "^5.40.0",

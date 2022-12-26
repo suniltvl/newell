@@ -2,7 +2,25 @@
 // $secondary: #e8d21d;
 // $border-radius: 1px;
 
+
+/*Start Bootswatch*/
 @import '../node_modules/bootswatch/dist/cyborg/_variables';
-//Bootswatch
-@import '../node_modules/bootstrap/scss/bootstrap';
+@import 'assets/custom/theme-override.scss';
+    /*Start Bootstrap*/
+    @import '../node_modules/bootstrap/scss/bootstrap';
+    /*End Bootstrap*/
 @import '../node_modules/bootswatch/dist/cyborg/_bootswatch';
+/*End Bootswatch*/
+
+
+/*Start Fontawesome*/
+@import 'assets/fontawesome/scss/functions';
+@import 'assets/fontawesome/scss/variables';
+@import 'assets/fontawesome/scss/fontawesome';
+@import 'assets/fontawesome/scss/brands';
+@import 'assets/fontawesome/scss/solid';
+@import 'assets/fontawesome/scss/regular';
+/*End Fontawesome*/
+
+
+@import 'assets/custom/custom.scss'
